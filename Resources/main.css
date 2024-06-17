@@ -1,10 +1,16 @@
 * {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 body {
     padding-top: 56px;
-    background-color: #b2b8b3;
+    background-color: #d2f7d9;
+}
+header {
+    border-bottom: 10px solid green;
+}
+.nav-item a {
+    color: white;
 }
 .intro-section {
     padding: 60px 0;
@@ -17,9 +23,8 @@ body {
 }
 .sidebar {
     padding: 20px;
-    background-color: #4dbd62;
+    background-color: #ffffff;
     height: 100vh;
-    position: sticky;
     top: 0;
 }
 .sidebar h2 {
