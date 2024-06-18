@@ -1,16 +1,35 @@
+* {
+    border: 0px solid red;
+}
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set minimum height of the viewport */
     padding-top: 56px;
     background-color: #d2f7d9;
 }
 .nav-item a {
     color: white;
 }
+#address_content {
+    border-bottom: 5px solid green;
+    padding-bottom: 5%;
+}
 #addresses_row {
-    border: 2px solid red;
+    border: 0px solid red;
 }
 #gaeilge_address {
     border: 2px solid black;
 }
 #béarla_address {
     border: 2px solid black;
+}
+.custom-link {
+    color: inherit;
+    text-decoration: none;
+}
+.footer {
+    padding: 10px 0; /* Padding top and bottom */
+    text-align: left;
+    width: 100%;
 }

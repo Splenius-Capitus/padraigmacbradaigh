@@ -3,17 +3,21 @@
 }
 
 body {
-    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /*padding-top: 56px;*/
     background-color: #d2f7d9;
 }
 header {
     border-bottom: 10px solid green;
+    padding-top:56px;
 }
 .nav-item a {
     color: white;
 }
 .intro-section {
-    padding: 60px 0;
+    padding: 0px 0;
 }
 .intro-section h1 {
     font-size: 2.5rem;
@@ -21,12 +25,23 @@ header {
 .intro-section p {
     font-size: 1.25rem;
 }
+#row1 {
+    width: 100vw;
+}
 .sidebar {
-    padding: 20px;
-    background-color: #ffffff;
+    padding: 10px;
+    background-color: #d2f7d9;
     height: 100vh;
     top: 0;
 }
 .sidebar h2 {
     font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 5px solid pink;
+}
+.footer {
+    padding: 10px 0; /* Padding top and bottom */
+    text-align: left;
+    width: 100%;
 }
