@@ -6,12 +6,65 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /*padding-top: 56px;*/
     background-color: #d2f7d9;
 }
 header {
     border-bottom: 10px solid green;
     padding-top:56px;
+}
+#carouselBox {
+}
+#homeCarousel {
+}
+.carousel-item {
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+#img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+#img3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+#img4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+#img5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 .nav-item a {
     color: white;
