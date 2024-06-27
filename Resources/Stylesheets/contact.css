@@ -39,6 +39,10 @@ body {
 .custom-bg-colour1 {
     background-color: #4B9B16;
 }
+#language-btn:hover {
+    background-color: #4B9B16;
+    filter: brightness(85%);
+}
 .social-media-links a img {
     width: 40px;
     height: 40px;

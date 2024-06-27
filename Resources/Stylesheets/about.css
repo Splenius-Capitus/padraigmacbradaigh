@@ -22,6 +22,10 @@ body {
 .nav-item a {
     color: white;
 }
+#language-btn:hover {
+    background-color: #4B9B16;
+    filter: brightness(85%);
+}
 #gaeilge_desc_box {
     margin-top: 4%;
     margin-bottom: 10%;
