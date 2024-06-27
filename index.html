@@ -6,98 +6,18 @@
     <title>Pádraig Mac Brádaigh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="Resources/Stylesheets/index.css">
-    <link rel="icon" href="Resources/Images/Tá don Ghaeilge.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Pádraig Mac Brádaigh</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Resources/Pages/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Resources/Pages/portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Resources/Pages/gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Resources/Pages/contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <header class="text-center">
-      <div id="carouselBox">
-        <!-- Carousel -->
-        <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel">
-          <!-- Indicators/Dots -->
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          </div>
-    
-          <!-- Carousel Items -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="Resources/Images/Election results night.webp" class="d-block w-100" alt="Image 1" id="img1">
-            </div>
-            <div class="carousel-item">
-              <img src="Resources/Images/Grad Ireland award.jpg" class="d-block w-100" alt="Image 2" id="img2">
-            </div>
-            <div class="carousel-item">
-              <img src="Resources/Images/Gniomhai Gaeilge (SU awards).png" class="d-block w-100" alt="Image 3" id="img3">
-            </div>
-            <div class="carousel-item">
-              <img src="Resources/Images/Dining hall hustings.webp" class="d-block w-100" alt="Image 4" id="img4">
-            </div>
-            <div class="carousel-item">
-              <img src="Resources/Images/Sabbat campaign photo.jpg" class="d-block w-100" alt="Image 5" id="img5">
-            </div>
-          </div>
-    
-          <!-- Carousel Controls -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-    </header>
-    <main class="flex-grow-1">
-      <div class="container-fluid">
-        <div>
-          <section class="col-md-7 intro-section text-center" id="about">
-            <div class="container">
-              <h1 class="my-4">Céad Míle Fáilte</h1>
-              <p class="mb-4">Hello! I'm [Your Name], a [Your Profession] with a passion for [Your Passion]. This website showcases some of my projects and skills. Feel free to explore and get in touch if you have any questions or collaboration ideas.</p>
-            </div>
-          </section>
+    <main>
+      <div class="language-selection">
+        <h1>Select Language</h1>
+        <div class="d-flex align-items-center flex-column language-options">
+            <a href="Resources/Pages/Irish/home-iri.html" class="btn btn-success btn-lg fw-bold">Gaeilge</a>
+            <a href="Resources/Pages/English/home-eng.html" class="btn btn-danger btn-lg fw-bold">English</a>
         </div>
       </div>
     </main>
-    <footer class="footer mt-auto bg-success">
-      <div class="container">
-        <span class="text-muted">Adam Ó hAnluain 2024</span>
-      </div>
-    </footer>
   </body>
 </html>

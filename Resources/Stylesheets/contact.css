@@ -30,6 +30,20 @@ body {
     color: inherit;
     text-decoration: none;
 }
+.social-media-links {
+    background-color: #343a40;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+.custom-bg-colour1 {
+    background-color: #4B9B16;
+}
+.social-media-links a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
 .footer {
     padding: 10px 0; /* Padding top and bottom */
     text-align: left;

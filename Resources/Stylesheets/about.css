@@ -7,6 +7,12 @@ body {
     min-height: 100vh;
     background-color: #d2f7d9;
 }
+#ong{
+    border-radius: 15px;
+}
+#pmb {
+    border-radius: 20px;
+}
 .custom-bg-colour1 {
     background-color: #4B9B16;
 }
@@ -18,15 +24,21 @@ body {
 }
 #gaeilge_desc_box {
     margin-top: 4%;
+    margin-bottom: 10%;
+    padding: 5%;
     min-width: 60%;
     max-width: 80%;
-    background-color: aquamarine;
+    background-color: white;
+    border: 3px dashed #4B9B16;
 }
 #béarla_desc_box {
     margin-top: 2.5%;
+    margin-bottom: 10%;
+    padding: 5%;
     min-width: 60%;
     max-width: 80%;
-    background-color: aquamarine;
+    background-color: white;
+    border: 3px dashed #4B9B16;
 }
 .indented-paragraph {
     text-indent: 20px;
